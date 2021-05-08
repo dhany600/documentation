@@ -1,0 +1,46 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+
+$font: 'Roboto';
+
+:global {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+}
+
+.bd-navbar{
+    padding: .75rem 0;
+    background-color: wheat;
+}
+
+.header-title{
+    font-size: calc(1.425rem + 2.1vw);
+}
+
+.header-content{
+    font-size: calc(1.275rem + .3vw);
+}
+
+.content-title{
+    font-size: calc(1.3rem + .6vw);
+}
+
+.content-text{
+    font-size: 1rem;
+}
+
+.TableOfContents{
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+@import './landingPage.scss';
